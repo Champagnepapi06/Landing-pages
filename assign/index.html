@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <a href="#home">Home</a> |
+    <a href="#about">About</a> |
+    <a href="#work">Work</a> |
+    <a href="#resume">Resume</a> |
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Home Section -->
+  <header id="home">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Hello! I'm a passionate web developer.</p>
+    <!-- Local Video -->
+    <video width="300" controls>
+      <source src="intro.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I build websites and web applications with a focus on clean design and usability.</p>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>React, Node.js</li>
+      <li>Python, Git, GitHub</li>
+    </ul>
+  </section>
+
+  <!-- Work Section -->
+  <section id="work">
+    <h2>My Work</h2>
+    <p>Here are a few of my projects:</p>
+    <ul>
+      <li><a href="https://github.com/champagnepapi06/portfolio">Portfolio Website</a></li>
+      <li><a href="https://github.com/champagnepapi06/ecommerce-app">E-commerce App</a></li>
+      <li><a href="https://github.com/champagnepapi06/todo-app">To-Do List App</a></li>
+    </ul>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume">
+    <h2>Resume</h2>
+    <table border="1">
+      <tr>
+        <th>Year</th>
+        <th>Role</th>
+        <th>Company</th>
+      </tr>
+      <tr>
+        <td>2023</td>
+        <td>Frontend Developer</td>
+        <td>Tech Solutions</td>
+      </tr>
+      <tr>
+        <td>2022</td>
+        <td>Web Intern</td>
+        <td>Startup Inc.</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="submit_form.php" method="post">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+      <input type="submit" value="Send">
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 champagnepapi06. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
